@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DuitkuSDkIos_Example' do
+  pod 'DuitkuSDkIos', :path => '../'
+
+  target 'DuitkuSDkIos_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
