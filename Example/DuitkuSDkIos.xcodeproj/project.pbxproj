@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048A7CC8DF3434D75B4C86F9 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3812576AB416F2F6564E58 /* Pods_DuitkuSDkIos_Example.framework */; };
 		34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557524CA9A4E00DF9992 /* Helper.swift */; };
 		34B1557824CAB15C00DF9992 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557724CAB15C00DF9992 /* Order.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -16,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8A4E3DC03AC4C15905A56DE4 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F28683241DB6A1E37011C45 /* Pods_DuitkuSDkIos_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C11DE9831D475155BF31474 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		028CB53FCF2F32A4ED6BBBE5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F28683241DB6A1E37011C45 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B1557524CA9A4E00DF9992 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		34B1557724CAB15C00DF9992 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		5321CD45264D4FBF4DE855D2 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DuitkuSDkIos_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuitkuSDkIos_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A9528FC43C2AD7C58AB57064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D628C0D1CDDD14D796D32129 /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DuitkuSDkIos.podspec; path = ../DuitkuSDkIos.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3F34A5542D45A4161EE3A8C /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6EB293EF93EA077019B5B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FE3812576AB416F2F6564E58 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048A7CC8DF3434D75B4C86F9 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
+				8A4E3DC03AC4C15905A56DE4 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,14 +68,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B6310D773B66A50EE0C21B1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FE3812576AB416F2F6564E58 /* Pods_DuitkuSDkIos_Example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +76,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				AA540EAB4F62A70A9813ADB5 /* Pods */,
-				0B6310D773B66A50EE0C21B1 /* Frameworks */,
+				7C1E14B32F443568940A07B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,11 +140,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7C1E14B32F443568940A07B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F28683241DB6A1E37011C45 /* Pods_DuitkuSDkIos_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA540EAB4F62A70A9813ADB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C11DE9831D475155BF31474 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
-				5321CD45264D4FBF4DE855D2 /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
+				E3F34A5542D45A4161EE3A8C /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
+				028CB53FCF2F32A4ED6BBBE5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,11 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos_Example" */;
 			buildPhases = (
-				29AEF7D75BB2BD4FF2A8CA4A /* [CP] Check Pods Manifest.lock */,
+				880CD8EE46E7E7D831CDAD22 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				26C8EE65F9F90BB5BBE0F8DC /* [CP] Embed Pods Frameworks */,
+				292A61BF04F29142024A6D30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,7 +260,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26C8EE65F9F90BB5BBE0F8DC /* [CP] Embed Pods Frameworks */ = {
+		292A61BF04F29142024A6D30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,7 +278,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29AEF7D75BB2BD4FF2A8CA4A /* [CP] Check Pods Manifest.lock */ = {
+		880CD8EE46E7E7D831CDAD22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +455,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C11DE9831D475155BF31474 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
+			baseConfigurationReference = E3F34A5542D45A4161EE3A8C /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -474,7 +474,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5321CD45264D4FBF4DE855D2 /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
+			baseConfigurationReference = 028CB53FCF2F32A4ED6BBBE5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "";

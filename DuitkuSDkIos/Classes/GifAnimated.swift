@@ -81,10 +81,18 @@ extension UIImage {
     public class func gif(asset: String) -> UIImage? {
         // Create source from assets catalog
         
-        let bundle = Bundle(identifier: "org.cocoapods.DuitkuSDkIos")
+     /*   let bundle = Bundle(identifier: "org.cocoapods.DuitkuSDkIos")
         let path = bundle?.path(forResource: asset, ofType: "gif")
         let data = NSData(contentsOfFile: path!)
-        return UIImage.gif(data: data! as Data)
+        return UIImage.gif(data: data! as Data)*/
+        
+        // Create source from assets catalog
+       guard let dataAsset = NSDataAsset(name: asset) else {
+           print("SwiftGif: Cannot turn image named \"\(asset)\" into NSDataAsset")
+           return nil
+       }
+
+       return gif(data: dataAsset.data)
                 
     }
 
