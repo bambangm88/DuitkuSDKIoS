@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557524CA9A4E00DF9992 /* Helper.swift */; };
+		34B1557824CAB15C00DF9992 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557724CAB15C00DF9992 /* Order.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D3427EFABB3E9AB4537910BF /* Pods_DuitkuSDkIos_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC86066934F56490FBFE197 /* Pods_DuitkuSDkIos_Tests.framework */; };
-		F78A6F406BDD00C020576B36 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D97024FFF63B0A96261D75 /* Pods_DuitkuSDkIos_Example.framework */; };
+		F27085F9C6846A1A708E7EC0 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AE622D9BDD20B55A6A5396 /* Pods_DuitkuSDkIos_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18C8738F08C513326CEEE214 /* Pods-DuitkuSDkIos_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Tests.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Tests/Pods-DuitkuSDkIos_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		38D97024FFF63B0A96261D75 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55179BA617DA2EB7F8DB483E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		03B836132299DA6361EA3B1E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08AE622D9BDD20B55A6A5396 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B1557524CA9A4E00DF9992 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		34B1557724CAB15C00DF9992 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DuitkuSDkIos_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuitkuSDkIos_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +43,10 @@
 		607FACE51AFB9204008FA782 /* DuitkuSDkIos_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuitkuSDkIos_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		993D3F7476AD3222558BE453 /* Pods-DuitkuSDkIos_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Tests/Pods-DuitkuSDkIos_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FC86066934F56490FBFE197 /* Pods_DuitkuSDkIos_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9528FC43C2AD7C58AB57064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D628C0D1CDDD14D796D32129 /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DuitkuSDkIos.podspec; path = ../DuitkuSDkIos.podspec; sourceTree = "<group>"; };
-		D98B669DF3C9AC5183170CB5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E6EB293EF93EA077019B5B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7E53B542DEE78E18844D690E /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9528FC43C2AD7C58AB57064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D628C0D1CDDD14D796D32129 /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DuitkuSDkIos.podspec; path = ../DuitkuSDkIos.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6EB293EF93EA077019B5B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78A6F406BDD00C020576B36 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
+				F27085F9C6846A1A708E7EC0 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3427EFABB3E9AB4537910BF /* Pods_DuitkuSDkIos_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +76,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				AA540EAB4F62A70A9813ADB5 /* Pods */,
-				87E082C215E0B006379DA993 /* Frameworks */,
+				F34CFFF894C4DD2E35A26102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +98,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				34B1557524CA9A4E00DF9992 /* Helper.swift */,
+				34B1557724CAB15C00DF9992 /* Order.swift */,
 			);
 			name = "Example for DuitkuSDkIos";
 			path = DuitkuSDkIos;
@@ -139,25 +140,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		87E082C215E0B006379DA993 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				38D97024FFF63B0A96261D75 /* Pods_DuitkuSDkIos_Example.framework */,
-				9FC86066934F56490FBFE197 /* Pods_DuitkuSDkIos_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AA540EAB4F62A70A9813ADB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55179BA617DA2EB7F8DB483E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
-				D98B669DF3C9AC5183170CB5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
-				993D3F7476AD3222558BE453 /* Pods-DuitkuSDkIos_Tests.debug.xcconfig */,
-				18C8738F08C513326CEEE214 /* Pods-DuitkuSDkIos_Tests.release.xcconfig */,
+				03B836132299DA6361EA3B1E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
+				7E53B542DEE78E18844D690E /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F34CFFF894C4DD2E35A26102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08AE622D9BDD20B55A6A5396 /* Pods_DuitkuSDkIos_Example.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos_Example" */;
 			buildPhases = (
-				7AB023CAB15877160222347D /* [CP] Check Pods Manifest.lock */,
+				7640C313AF535031CAD91DCB /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				10E0F1EE4C35518098ECAE8C /* [CP] Embed Pods Frameworks */,
+				943365337B1BB7D3FC132448 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +183,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos_Tests" */;
 			buildPhases = (
-				6A51AE85108576F7AF2C2A3D /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -213,6 +209,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7U9QD5H9L6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +224,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,47 +260,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10E0F1EE4C35518098ECAE8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DuitkuSDkIos/DuitkuSDkIos.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DuitkuSDkIos.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A51AE85108576F7AF2C2A3D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DuitkuSDkIos_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7AB023CAB15877160222347D /* [CP] Check Pods Manifest.lock */ = {
+		7640C313AF535031CAD91DCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,6 +282,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		943365337B1BB7D3FC132448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DuitkuSDkIos/DuitkuSDkIos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DuitkuSDkIos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -333,6 +309,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				34B1557824CAB15C00DF9992 /* Order.swift in Sources */,
+				34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +397,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7s armv7 arm64e arm64";
 			};
 			name = Debug;
 		};
@@ -465,47 +444,55 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55179BA617DA2EB7F8DB483E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
+			baseConfigurationReference = 03B836132299DA6361EA3B1E /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7U9QD5H9L6;
 				INFOPLIST_FILE = DuitkuSDkIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "armv7 armv7s arm64e arm64";
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98B669DF3C9AC5183170CB5 /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
+			baseConfigurationReference = 7E53B542DEE78E18844D690E /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7U9QD5H9L6;
 				INFOPLIST_FILE = DuitkuSDkIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "armv7 armv7s armv7s armv7s";
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 993D3F7476AD3222558BE453 /* Pods-DuitkuSDkIos_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +514,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C8738F08C513326CEEE214 /* Pods-DuitkuSDkIos_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

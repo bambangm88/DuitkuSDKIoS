@@ -1,0 +1,6 @@
+framework module DuitkuSDkIos {
+  umbrella header "DuitkuSDkIos-umbrella.h"
+
+  export *
+  module * { export * }
+}

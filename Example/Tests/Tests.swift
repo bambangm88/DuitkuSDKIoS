@@ -1,5 +1,5 @@
 import XCTest
-import DuitkuSDkIos
+
 
 class Tests: XCTestCase {
     
