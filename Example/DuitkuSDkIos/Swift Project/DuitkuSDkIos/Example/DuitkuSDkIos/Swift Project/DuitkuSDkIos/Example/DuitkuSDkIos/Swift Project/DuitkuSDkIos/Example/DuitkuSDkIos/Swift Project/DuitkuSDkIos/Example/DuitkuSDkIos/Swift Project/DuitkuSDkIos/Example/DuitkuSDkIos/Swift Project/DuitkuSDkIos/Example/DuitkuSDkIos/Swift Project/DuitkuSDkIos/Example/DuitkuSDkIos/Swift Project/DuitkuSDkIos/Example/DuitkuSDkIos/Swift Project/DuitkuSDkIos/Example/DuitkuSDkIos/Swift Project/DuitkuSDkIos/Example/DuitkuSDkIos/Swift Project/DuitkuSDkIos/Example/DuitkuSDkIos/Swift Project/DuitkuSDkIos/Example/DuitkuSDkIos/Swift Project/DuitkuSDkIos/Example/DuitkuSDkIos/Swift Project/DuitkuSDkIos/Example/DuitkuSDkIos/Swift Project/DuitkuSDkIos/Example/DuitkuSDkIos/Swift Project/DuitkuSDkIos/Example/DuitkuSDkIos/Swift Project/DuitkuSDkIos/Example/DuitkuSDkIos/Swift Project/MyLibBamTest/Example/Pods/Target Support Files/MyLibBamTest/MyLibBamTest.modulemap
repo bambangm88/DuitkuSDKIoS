@@ -1,6 +1,0 @@
-framework module MyLibBamTest {
-  umbrella header "MyLibBamTest-umbrella.h"
-
-  export *
-  module * { export * }
-}
