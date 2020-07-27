@@ -1,5 +1,5 @@
 PODS:
-  - DuitkuSDkIos (0.0.1)
+  - DuitkuSDkIos (0.1.0)
 
 DEPENDENCIES:
   - DuitkuSDkIos (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DuitkuSDkIos: 806a41c163eba87f516f3bdd679e0c23086e9bc8
+  DuitkuSDkIos: dbc718f6a3db44dd75613c0786cb9f948f0bdd59
 
-PODFILE CHECKSUM: 48e3c6d162afaaa2bb40c7bcdbfaf8a75de2bf52
+PODFILE CHECKSUM: 09851e81765eb2e22a8c614656db61362b437135
 
 COCOAPODS: 1.9.3
