@@ -14,6 +14,8 @@ class CheckoutDuitku: UIViewController  {
     @IBOutlet weak var ImageLoading: UIImageView!
     @IBOutlet weak var CardLoading: UIView!
     
+    
+
     @IBOutlet weak var webView: WKWebView!
     
     
@@ -50,7 +52,7 @@ class CheckoutDuitku: UIViewController  {
             
             
                 guard  DuitkuKit.paymentAmount != "" else {
-                    self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                      
                     self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                     self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                                           
@@ -70,9 +72,8 @@ class CheckoutDuitku: UIViewController  {
                 
                                 
                     if (helper.isConnectedToNetwork() == false ) {
-                        self.navigationController!.setNavigationBarHidden(false, animated: true)
                         self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
-                        self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: "Internet is not connected")
+                       self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: self.helper.localizedString(forKey: "No Internet Connection"))
                        helper.showToast(message: "Internet is not connected",context: self)
                                               
                         return
@@ -96,9 +97,8 @@ class CheckoutDuitku: UIViewController  {
             
             
              if (helper.isConnectedToNetwork() == false ) {
-                self.navigationController!.setNavigationBarHidden(false, animated: true)
-                self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
-                self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: "Internet is not connected")
+                 self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: self.helper.localizedString(forKey: "No Internet Connection"))
                 helper.showToast(message: "Internet is not connected",context: self)
                                        
                  return
@@ -128,16 +128,15 @@ class CheckoutDuitku: UIViewController  {
                     
                     // ensure there is no error for this HTTP response
                    guard error == nil else {
-                       self.navigationController!.setNavigationBarHidden(false, animated: true)
+                       
                        helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
-                       helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:"error: \(String(describing: error?.localizedDescription))")
+                    helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:"error: \(String(describing: error?.localizedDescription))")
                        return
                    }
                    
                    // ensure there is data returned from this HTTP response
                     guard let data = data else {
-                        self.navigationController!.setNavigationBarHidden(false, animated: true)
-                        helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                          helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                         helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:"Server Error \(String(describing: error?.localizedDescription))")
                         return
                     }
@@ -150,7 +149,8 @@ class CheckoutDuitku: UIViewController  {
                        
                           return
                       }*/
-           
+
+                                           
              
                       do {
                         
@@ -159,16 +159,18 @@ class CheckoutDuitku: UIViewController  {
                         
                         
                            guard let statusMessage = json["statusMessage"] as? String else {
-                                 self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                       
                                  self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                  self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
+                               
                                    return
+                                                   
                            }
                         
                         
                            guard let paymentUrl = json["paymentUrl"] as? String else {
                             
-                              self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                            
                               self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                               self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   statusMessage)
                             
@@ -177,7 +179,7 @@ class CheckoutDuitku: UIViewController  {
                             }
                         
                            guard let reference = json["reference"] as? String else {
-                                 self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                       
                                  self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                  self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   statusMessage)
                                
@@ -197,9 +199,9 @@ class CheckoutDuitku: UIViewController  {
                                  Util.MODE_PAYMENT = "passport"
                             }
                         
-                            self.webView.load(URLRequest(url: urlPayment))
-                            
-                             helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                          self.webView.load(URLRequest(url: urlPayment))
+                        
+                          helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                          
                        
                           
@@ -222,9 +224,8 @@ class CheckoutDuitku: UIViewController  {
                       let helper = Helper()
                      
                       if (helper.isConnectedToNetwork() == false ) {
-                         self.navigationController!.setNavigationBarHidden(false, animated: true)
-                         self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
-                         self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: "Internet is not connected")
+                          self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                         self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false, textError: self.textError , message: self.helper.localizedString(forKey: "No Internet Connection"))
                          helper.showToast(message: "Internet is not connected",context: self)
                                                 
                           return
@@ -254,16 +255,15 @@ class CheckoutDuitku: UIViewController  {
                              
                              // ensure there is no error for this HTTP response
                             guard error == nil else {
-                             self.navigationController!.setNavigationBarHidden(false, animated: true)
-                             helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                                
+                                helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                              helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:"error: \(String(describing: error?.localizedDescription))")
                                 return
                             }
                             
                             // ensure there is data returned from this HTTP response
                              guard let data = data else {
-                                 self.navigationController!.setNavigationBarHidden(false, animated: true)
-                                 helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                                   helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                  helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:"Server Error \(String(describing: error?.localizedDescription))")
                                  return
                              }
@@ -286,7 +286,7 @@ class CheckoutDuitku: UIViewController  {
                                     print(json)
                                  
                                     guard let statusMessage = json["statusMessage"] as? String else {
-                                          self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                
                                           self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                           self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                         
@@ -295,7 +295,7 @@ class CheckoutDuitku: UIViewController  {
                                     }
                                 
                                     guard let reference = json["reference"] as? String else {
-                                            self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                                              
                                             self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                             self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                           
@@ -304,7 +304,7 @@ class CheckoutDuitku: UIViewController  {
                                     }
                                 
                                    guard let code = json["statusCode"] as? String else {
-                                           self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                                                                             
                                            self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                            self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                          
@@ -313,7 +313,7 @@ class CheckoutDuitku: UIViewController  {
                                    }
                                 
                                   guard let orderId = json["merchantOrderId"] as? String else {
-                                             self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                                                                                                           
                                          self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                          self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                        
@@ -323,7 +323,7 @@ class CheckoutDuitku: UIViewController  {
                                 
 
                                  guard let amount = json["amount"] as? String else {
-                                       self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                                                                                                                         
                                        self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                                        self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                      
@@ -364,7 +364,7 @@ class CheckoutDuitku: UIViewController  {
     private func overloading(url : String)  {
         
        guard url != "" else {
-            self.navigationController!.setNavigationBarHidden(false, animated: true)
+                                                              
             self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
             self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
             return

@@ -4,12 +4,15 @@ class Helper{
     
      //set Shadow (Card View)
      public static func setCardViewShadow(cardItem:UIView, radius:CGFloat , opacity:Float){
-         cardItem.layer.shadowColor = UIColor.black.cgColor
-         cardItem.layer.shadowOpacity = opacity
-         cardItem.layer.shadowOffset = .zero
-         cardItem.layer.shadowRadius = radius
-         cardItem.layer.shadowPath = UIBezierPath(rect: cardItem.bounds).cgPath
-         cardItem.layer.rasterizationScale = UIScreen.main.scale
+        
+        cardItem.layer.shadowColor = UIColor.black.cgColor
+        cardItem.layer.shadowOpacity = 0.07
+        cardItem.layer.shadowOffset = .zero
+        cardItem.layer.shadowRadius = 10
+        
+        
+        
+        
      }
     
     

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LocalStatusCell" id="6oK-Pj-a8I" customClass="testcellcollection" customModule="DuitkuSDkIos_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="253"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="02P-3a-vQ3">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="253"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BpJ-Un-Ugb" customClass="CardView" customModule="covid_webinar_app" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="194" height="245"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PnA-1f-ABg">
+                                <rect key="frame" x="0.0" y="0.0" width="194" height="245"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sepatu" translatesAutoresizingMaskIntoConstraints="NO" id="FzD-Lt-cht">
+                                        <rect key="frame" x="10" y="10" width="174" height="181"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATUS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="So0-fT-Jqd">
+                                        <rect key="frame" x="0.0" y="206.5" width="194" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1450" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msM-Il-9tJ">
+                                        <rect key="frame" x="0.0" y="223.5" width="194" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="11"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="msM-Il-9tJ" firstAttribute="top" secondItem="So0-fT-Jqd" secondAttribute="bottom" constant="2.5" id="0MT-kx-vzG"/>
+                                    <constraint firstAttribute="bottom" secondItem="FzD-Lt-cht" secondAttribute="bottom" constant="54" id="BF2-VL-SKd"/>
+                                    <constraint firstItem="FzD-Lt-cht" firstAttribute="leading" secondItem="PnA-1f-ABg" secondAttribute="leading" constant="10" id="HW8-Zz-BTY"/>
+                                    <constraint firstItem="msM-Il-9tJ" firstAttribute="top" secondItem="So0-fT-Jqd" secondAttribute="bottom" constant="2.5" id="Jp0-pQ-93t"/>
+                                    <constraint firstAttribute="trailing" secondItem="msM-Il-9tJ" secondAttribute="trailing" id="Kv4-T3-c4E"/>
+                                    <constraint firstAttribute="trailing" secondItem="FzD-Lt-cht" secondAttribute="trailing" constant="10" id="Ot5-YU-6mv"/>
+                                    <constraint firstItem="FzD-Lt-cht" firstAttribute="top" secondItem="PnA-1f-ABg" secondAttribute="top" constant="10" id="SlK-Ii-dGK"/>
+                                    <constraint firstItem="So0-fT-Jqd" firstAttribute="leading" secondItem="PnA-1f-ABg" secondAttribute="leading" id="YQ2-zd-CsJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="msM-Il-9tJ" secondAttribute="bottom" constant="8" id="d0x-3s-cTq"/>
+                                    <constraint firstAttribute="trailing" secondItem="So0-fT-Jqd" secondAttribute="trailing" id="e5O-yM-aOy"/>
+                                    <constraint firstItem="msM-Il-9tJ" firstAttribute="leading" secondItem="PnA-1f-ABg" secondAttribute="leading" id="oU1-RA-f19"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PnA-1f-ABg" secondAttribute="bottom" id="9rL-8p-XsK"/>
+                            <constraint firstItem="PnA-1f-ABg" firstAttribute="leading" secondItem="BpJ-Un-Ugb" secondAttribute="leading" id="Wkr-MS-UIu"/>
+                            <constraint firstAttribute="trailing" secondItem="PnA-1f-ABg" secondAttribute="trailing" id="h83-Zd-oR6"/>
+                            <constraint firstItem="PnA-1f-ABg" firstAttribute="top" secondItem="BpJ-Un-Ugb" secondAttribute="top" id="qCn-EW-5QL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BpJ-Un-Ugb" firstAttribute="top" secondItem="02P-3a-vQ3" secondAttribute="top" constant="4" id="IMh-Ug-A4D"/>
+                    <constraint firstAttribute="bottom" secondItem="BpJ-Un-Ugb" secondAttribute="bottom" constant="4" id="aQx-1p-cKa"/>
+                    <constraint firstItem="BpJ-Un-Ugb" firstAttribute="leading" secondItem="02P-3a-vQ3" secondAttribute="leading" constant="4" id="dV3-Lb-QVf"/>
+                    <constraint firstAttribute="trailing" secondItem="BpJ-Un-Ugb" secondAttribute="trailing" constant="4" id="y6c-i3-hrn"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="264" height="171"/>
+            <connections>
+                <outlet property="cardview" destination="PnA-1f-ABg" id="c2R-gb-fzv"/>
+                <outlet property="imageview" destination="FzD-Lt-cht" id="3SO-Za-8KL"/>
+                <outlet property="price" destination="msM-Il-9tJ" id="AgK-fj-QrF"/>
+                <outlet property="title" destination="So0-fT-Jqd" id="upP-aB-4b2"/>
+            </connections>
+            <point key="canvasLocation" x="244.92753623188409" y="89.397321428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="sepatu" width="268" height="188"/>
+    </resources>
+</document>

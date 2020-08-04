@@ -134,14 +134,16 @@ class Helper {
     
         
     func setLoadingDuitku(Image:UIImageView, view:UIView , hidden:Bool){
-        Image.loadGifDuitku(asset: "loadingduitku",myclass: Helper.self)
+       
+        
+        Image.loadGif(asset: "loadingduitku")
+        
         view.isHidden = hidden
     }
     
     func setErrorDuitku(Image:UIImageView, view:UIView , hidden:Bool , textError : UILabel , message : String){
         
-        
-        Image.loadGifDuitku(asset: "error",myclass: Helper.self)
+        Image.loadGif(asset: "error")
         view.isHidden = hidden
         textError.text = message
     }
@@ -156,18 +158,25 @@ class Helper {
         return result
     }
     
+  
+
 
     func showToast(message : String, context: UIViewController) {
-        
-      
-        let alertbox = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertController.Style.alert)
-        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) { (result : UIAlertAction) -> Void in
-            print("OK")
-        }
-        alertbox.addAction(okAction)
-        context.present(alertbox, animated: true, completion: nil)
-        
-       
+
+        let toastLabel = UILabel(frame: CGRect(x: context.view.frame.size.width/2 - 75, y: context.view.frame.size.height-100, width: 150, height: 35))
+        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLabel.textColor = UIColor.white
+        toastLabel.textAlignment = .center;
+        toastLabel.text = message
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        context.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 4.0, delay: 0.1, options: .curveEaseOut, animations: {
+             toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
     }
        
     
@@ -184,3 +193,13 @@ class Helper {
 
 }
 
+    
+extension UIImage {
+public class func gifX(asset: String) -> UIImage? {
+  if let asset = NSDataAsset(name: asset) {
+     return UIImage.gif(data: asset.data)
+  }
+  return nil
+}
+
+}

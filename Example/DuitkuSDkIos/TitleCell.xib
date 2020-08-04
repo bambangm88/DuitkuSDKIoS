@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TitleCell" id="TZN-LN-upc" customClass="TitleCell" customModule="covid_webinar_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LGS-Xw-kj2">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID 19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4K-bQ-j46">
+                        <rect key="frame" x="20" y="40.5" width="335" height="38.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status in Indonesia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-Xw-eGm">
+                        <rect key="frame" x="20" y="83" width="335" height="19.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="H4K-bQ-j46" firstAttribute="top" secondItem="LGS-Xw-kj2" secondAttribute="top" constant="40.5" id="Cnm-ca-jha"/>
+                    <constraint firstItem="H4K-bQ-j46" firstAttribute="leading" secondItem="LGS-Xw-kj2" secondAttribute="leading" constant="20" id="IF9-oM-OHo"/>
+                    <constraint firstItem="mqE-Xw-eGm" firstAttribute="trailing" secondItem="H4K-bQ-j46" secondAttribute="trailing" id="KIY-gI-eRz"/>
+                    <constraint firstItem="mqE-Xw-eGm" firstAttribute="top" secondItem="H4K-bQ-j46" secondAttribute="bottom" constant="4" id="QOg-ol-uTc"/>
+                    <constraint firstAttribute="trailing" secondItem="H4K-bQ-j46" secondAttribute="trailing" constant="20" id="QSh-eK-Ex3"/>
+                    <constraint firstAttribute="bottom" secondItem="mqE-Xw-eGm" secondAttribute="bottom" constant="40.5" id="l5J-OC-n0m"/>
+                    <constraint firstItem="mqE-Xw-eGm" firstAttribute="leading" secondItem="H4K-bQ-j46" secondAttribute="leading" id="qoL-d7-GBU"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="375" height="159"/>
+            <point key="canvasLocation" x="235.50724637681162" y="-79.017857142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>

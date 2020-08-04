@@ -46,14 +46,16 @@ class Order: DuitkuClient{
             var yourImage: UIImage = UIImage(named: "ipod")!
             imgOrder.image = yourImage
             judul.text = "All New Earphone K200"
-            harga.text = "10000"
-            total.text = "10000"
+            harga.text = "Rp "+String(10000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
+            total.text =  "Rp "+String(10000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
+            
+            
         }else if product == "sepatu" {
             var yourImage: UIImage = UIImage(named: "sepatu")!
             imgOrder.image = yourImage
             judul.text = "Casual Shoes MA500"
-            harga.text = "250000"
-            total.text = "250000"
+            harga.text = "Rp "+String(250000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
+            total.text =  "Rp "+String(250000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
         }
         
     //    imgOrder.image = UIImage(contentsOfFile: "ipod")//
@@ -62,12 +64,11 @@ class Order: DuitkuClient{
 
     @IBAction func purchase(_ sender: Any) {
         
-             var amount = (total.text)!
-             var harga_ = (harga.text)!
+             var amount = (total.text)!.numericString
+             var harga_ = (harga.text)!.numericString
              var jumlah_ = (jumlah.text)!
              var product = (judul.text)!
            
-        
         
         let refreshAlert = UIAlertController(title: "Purchase", message: "Lanjut Pembayaran", preferredStyle: UIAlertControllerStyle.alert)
 
@@ -98,13 +99,14 @@ class Order: DuitkuClient{
 
         
         var jumlahPesan : String = (self.jumlah.text)!
-        var harga: String = (self.harga.text)!
+        var harga: String = (self.harga.text)!.numericString
+        
         if Int(jumlahPesan)!  > 1 {
             
           var total_jumlah_pesanan : Int =  Int(jumlahPesan)! - 1
           self.jumlah.text = String(total_jumlah_pesanan)
           var totalharga :Int =  Int(harga)! * total_jumlah_pesanan
-          self.total.text = String(totalharga)
+          self.total.text = "Rp "+String(totalharga).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
             
         }else{
            Helper.showToast(message: "Minimal 1 Pembelanjaan", context: self)
@@ -116,12 +118,14 @@ class Order: DuitkuClient{
     
     @IBAction func btn_tambah(_ sender: Any) {
         var jumlahPesan : String = (self.jumlah.text)!
-        var harga: String = (self.harga.text)!
+        var harga: String = (self.harga.text)!.numericString
+        
+        
         if Int(jumlahPesan)!  < 10 {
               var total_jumlah_pesanan =  Int(jumlahPesan)! + 1
               self.jumlah.text = String(total_jumlah_pesanan)
               var totalharga :Int = Int(harga)! * total_jumlah_pesanan
-              self.total.text = String(totalharga)
+              self.total.text = "Rp "+String(totalharga).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
         }else{
               Helper.showToast(message: "Stok Kurang dari 10", context: self)
         }
@@ -213,3 +217,23 @@ class Order: DuitkuClient{
 }
 
 
+ extension String{
+    func convertDoubleToCurrency() -> String{
+        let amount1 = Double(self)
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .currency
+        numberFormatter.locale = Locale(identifier: "en_US")
+        return numberFormatter.string(from: NSNumber(value: amount1!))!
+    }
+}
+
+
+extension String {
+
+    /// Returns a string with all non-numeric characters removed
+    public var numericString: String {
+        let characterSet = CharacterSet(charactersIn: "0123456789.").inverted
+        return components(separatedBy: characterSet)
+            .joined()
+    }
+}

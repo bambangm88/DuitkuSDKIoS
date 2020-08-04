@@ -20,8 +20,7 @@ public class ListPaymentDuitku: UIViewController  {
     
     @IBOutlet weak var CardLoading: UIView!
     
-    @IBOutlet weak var textError: UILabel!
-    
+  
     @IBOutlet weak var LoadingDuitku: UIImageView!
      
     @IBOutlet weak var tablePayment: UITableView!
@@ -31,7 +30,7 @@ public class ListPaymentDuitku: UIViewController  {
     @IBOutlet weak var ImageError: UIImageView!
     
     
-
+    @IBOutlet weak var textError: UILabel!
     private var  listPayment_ = [listPayment]()
     
     private let helper = Helper()

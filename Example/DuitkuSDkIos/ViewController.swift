@@ -41,6 +41,8 @@ class ViewController: UIViewController {
     
     @IBAction func btnSepatu(_ sender: UIButton) {
         
+        print("tes")
+        
         let vc = storyboard?.instantiateViewController(withIdentifier:"order") as!Order
         vc.product = "sepatu"
         vc.detail = "All New Sepatu Casual"

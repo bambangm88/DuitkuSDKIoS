@@ -23,10 +23,15 @@ class TableViewCellPayment: UITableViewCell {
     func setListPayment(_ lisPayment_:listPayment){
         
         self.lisPayment_ = lisPayment_
+        
         labelPayment.text = lisPayment_.paymentName
+        
         labelPrice.text = "Bayar dengan "+lisPayment_.paymentName
-        labelDetail.text = "Biaya Rp "+lisPayment_.totalFee.convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
+        
+        labelDetail.text = "Biaya Rp "+lisPayment_.totalFee
+        
         let url = URL(string: lisPayment_.paymentImage)
+        
         self.imageUrl.downloadImage(from: url!)
         
     }
@@ -39,6 +44,7 @@ class TableViewCellPayment: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+
         // Configure the view for the selected state
     }
 
@@ -62,5 +68,3 @@ extension UIImageView {
       }
    }
 }
-
-
