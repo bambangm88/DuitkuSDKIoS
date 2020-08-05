@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3423F92624D940500086AE18 /* loadingduitku.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3423F92424D940500086AE18 /* loadingduitku.gif */; };
-		3423F92724D940500086AE18 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3423F92524D940500086AE18 /* error.gif */; };
 		34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557524CA9A4E00DF9992 /* Helper.swift */; };
 		34B1557824CAB15C00DF9992 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557724CAB15C00DF9992 /* Order.swift */; };
 		34E6368724D7CAFB0078C5E7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6368624D7CAFB0078C5E7 /* Main.swift */; };
 		34E6368924D7CC890078C5E7 /* LocalStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E6368824D7CC890078C5E7 /* LocalStatusCell.xib */; };
 		34E6368B24D7CCEF0078C5E7 /* testcellcollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6368A24D7CCEF0078C5E7 /* testcellcollection.swift */; };
-		3E36590C278BB9B9ACC2BCCD /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0235D4F0A6154ABB6AC3785 /* Pods_DuitkuSDkIos_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9458C8526FC143EDE62BF450 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35CB4BEFBAAE0DF43D26C46 /* Pods_DuitkuSDkIos_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,27 +31,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3423F92424D940500086AE18 /* loadingduitku.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadingduitku.gif; sourceTree = SOURCE_ROOT; };
-		3423F92524D940500086AE18 /* error.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = error.gif; sourceTree = SOURCE_ROOT; };
+		13A01D506344AEA6E7E4C459 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
 		34B1557524CA9A4E00DF9992 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		34B1557724CAB15C00DF9992 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		34E6368624D7CAFB0078C5E7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		34E6368824D7CC890078C5E7 /* LocalStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalStatusCell.xib; sourceTree = "<group>"; };
 		34E6368A24D7CCEF0078C5E7 /* testcellcollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testcellcollection.swift; sourceTree = "<group>"; };
-		5C3177E11E66DE1F13CC7A89 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.release.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D582EDCD85023204D225F45 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DuitkuSDkIos_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuitkuSDkIos_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* DuitkuSDkIos_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuitkuSDkIos_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		913FBDA72A02D0F2E06C8177 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A0235D4F0A6154ABB6AC3785 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9528FC43C2AD7C58AB57064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B35CB4BEFBAAE0DF43D26C46 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D628C0D1CDDD14D796D32129 /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DuitkuSDkIos.podspec; path = ../DuitkuSDkIos.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6EB293EF93EA077019B5B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E36590C278BB9B9ACC2BCCD /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
+				9458C8526FC143EDE62BF450 /* Pods_DuitkuSDkIos_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +80,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				AA540EAB4F62A70A9813ADB5 /* Pods */,
-				EA306924DF92761CCBA0EE52 /* Frameworks */,
+				9F50F7384E1E16C8157BDD56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +96,7 @@
 		607FACD21AFB9204008FA782 /* Example for DuitkuSDkIos */ = {
 			isa = PBXGroup;
 			children = (
-				3423F92524D940500086AE18 /* error.gif */,
-				3423F92424D940500086AE18 /* loadingduitku.gif */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -155,21 +146,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9F50F7384E1E16C8157BDD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B35CB4BEFBAAE0DF43D26C46 /* Pods_DuitkuSDkIos_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA540EAB4F62A70A9813ADB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				913FBDA72A02D0F2E06C8177 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
-				5C3177E11E66DE1F13CC7A89 /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
+				5D582EDCD85023204D225F45 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */,
+				13A01D506344AEA6E7E4C459 /* Pods-DuitkuSDkIos_Example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		EA306924DF92761CCBA0EE52 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A0235D4F0A6154ABB6AC3785 /* Pods_DuitkuSDkIos_Example.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,11 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos_Example" */;
 			buildPhases = (
-				6BA87FC9A660E96EDC1A0073 /* [CP] Check Pods Manifest.lock */,
+				5F2FB1948C8C226F66E9DFA9 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BFF15462885A0EBBCB2552F4 /* [CP] Embed Pods Frameworks */,
+				872BDBB2BAF309DB5BB6BCB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,8 +254,6 @@
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				34E6368924D7CC890078C5E7 /* LocalStatusCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				3423F92624D940500086AE18 /* loadingduitku.gif in Resources */,
-				3423F92724D940500086AE18 /* error.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +267,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6BA87FC9A660E96EDC1A0073 /* [CP] Check Pods Manifest.lock */ = {
+		5F2FB1948C8C226F66E9DFA9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,7 +289,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFF15462885A0EBBCB2552F4 /* [CP] Embed Pods Frameworks */ = {
+		872BDBB2BAF309DB5BB6BCB7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E6368724D7CAFB0078C5E7 /* Main.swift in Sources */,
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				34B1557824CAB15C00DF9992 /* Order.swift in Sources */,
 				34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */,
@@ -475,7 +463,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 913FBDA72A02D0F2E06C8177 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
+			baseConfigurationReference = 5D582EDCD85023204D225F45 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -495,7 +483,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3177E11E66DE1F13CC7A89 /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
+			baseConfigurationReference = 13A01D506344AEA6E7E4C459 /* Pods-DuitkuSDkIos_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "";

@@ -46,7 +46,8 @@ extension UIImage {
         let fileName = asset
         let fileType = "gif"
         let podBundle = Bundle(for: myclass) // for getting pod url
-        if let url = podBundle.url(forResource: "SDK", withExtension: "bundle") { //<YourBundleName> must be the same as you wrote in .podspec
+        if let url = podBundle.url(forResource: "Animated", withExtension: "bundle") { //<YourBundleName> must be the same as you wrote in .podspec
+                
                let bundle = Bundle(url: url)
                //let resourcePath = bundle.path(forResource: fileName, ofType: fileType)
                if let path = bundle!.path(forResource: fileName, ofType: fileType) {

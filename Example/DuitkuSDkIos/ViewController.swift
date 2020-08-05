@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        self.navigationController?.navigationBar.barTintColor = UIColor.white
         
         Helper.setCardViewShadow(cardItem: self.cardIpod, radius: 1, opacity: 0.1)
         Helper.setCardViewShadow(cardItem: self.Corousel, radius: 1, opacity: 0.1)

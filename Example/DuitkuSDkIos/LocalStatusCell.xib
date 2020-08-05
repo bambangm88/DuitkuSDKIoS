@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="202" height="253"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BpJ-Un-Ugb" customClass="CardView" customModule="covid_webinar_app" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BpJ-Un-Ugb" customClass="CardView" customModule="DuitkuSDkIos_Example" customModuleProvider="target">
                         <rect key="frame" x="4" y="4" width="194" height="245"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PnA-1f-ABg">
@@ -39,7 +39,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="msM-Il-9tJ" firstAttribute="top" secondItem="So0-fT-Jqd" secondAttribute="bottom" constant="2.5" id="0MT-kx-vzG"/>
                                     <constraint firstAttribute="bottom" secondItem="FzD-Lt-cht" secondAttribute="bottom" constant="54" id="BF2-VL-SKd"/>
@@ -55,7 +55,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="PnA-1f-ABg" secondAttribute="bottom" id="9rL-8p-XsK"/>
                             <constraint firstItem="PnA-1f-ABg" firstAttribute="leading" secondItem="BpJ-Un-Ugb" secondAttribute="leading" id="Wkr-MS-UIu"/>

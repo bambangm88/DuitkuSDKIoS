@@ -49,6 +49,8 @@ public class ListPaymentDuitku: UIViewController  {
         
         self.navigationController?.hidesBottomBarWhenPushed = true
         self.navigationItem.title = "Choose your payment"
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        self.navigationController?.navigationBar.barTintColor = UIColor.white
         
         helper.setLoadingDuitku(Image: LoadingDuitku, view: CardLoading , hidden: false)
         helper.setErrorDuitku(Image: ImageError, view: CardError , hidden: true, textError: self.textError , message: "Server Error")

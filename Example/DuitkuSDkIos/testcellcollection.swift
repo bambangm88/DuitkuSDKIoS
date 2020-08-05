@@ -26,9 +26,9 @@ class testcellcollection: UICollectionViewCell {
         Helper.setCardViewShadow(cardItem: self.cardview, radius: 1, opacity: 0.1)
         
         
-        var a : String = String(data[1])
+        let a : String = String(data[1])
          print("tes"+a)
-        var yourImage: UIImage = UIImage(named: a)!
+        let yourImage: UIImage = UIImage(named: a)!
         imageview.image = yourImage
     }
     

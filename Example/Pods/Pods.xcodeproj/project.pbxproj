@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041DCCBA081CAA15E728F1F22761A4C7 /* DuitkuSDkIos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E1043092F9530004F0C07CD62D2093 /* DuitkuSDkIos.bundle */; };
-		06835DCFC08E98020CEEB6DED0F8718D /* DuitkuSDkIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441DFB487BE84EBD37E5EC1D976D098 /* DuitkuSDkIos-dummy.m */; };
-		11EE8C4C6F25F7D05D45E7A70AF83840 /* DuitkuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA995102E10BEA433C0DA45B668441 /* DuitkuClient.swift */; };
-		1E738D161622A332578B4EDA4F335E8E /* TableViewCellPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989ABAA64EA29911941DC11EC5EED06 /* TableViewCellPayment.swift */; };
 		1F507129690572B2DC0C53EC8369C150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2D5468DDEB5439A1E1656234171B9B5F /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F4490CF0EC0EA2C0775259105A3F5A /* Sandbox.swift */; };
-		3423F92924D94BCE0086AE18 /* SDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3423F92824D94BCE0086AE18 /* SDK.bundle */; };
-		3423F92B24D94D750086AE18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3423F92A24D94D750086AE18 /* WebKit.framework */; };
-		44DD77F3AC820C5AE18AB2CBA203C342 /* DuitkuKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6BF25DF3CE8B391007482296EF8FA /* DuitkuKit.swift */; };
-		45FE2668739ACC8EF28C1F737DCE5EC1 /* ListPaymentDuitku.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 2DE12D46EA2E505BF4C1B0452F567081 /* ListPaymentDuitku.storyboard */; };
-		46987094EF6E2746B057511B0705A561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6CCC6670F1D19F5BB3A967D1415335D8 /* DuitkuSDkIos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA6FF9AC4C1A714201C8D9FF5E68A92 /* DuitkuSDkIos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88A7CF8559AFE1C1362D096CF3F4F094 /* Animated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DD6572A6C00A41B1778AEE0668211E /* Animated.swift */; };
-		A0D0F75C01818D89DBDDF72452D77CAE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD9B665E1CFF8EEAA25021A3D95B04 /* Helper.swift */; };
+		218C661630A8BBB725950FF045186634 /* DuitkuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646DE94F89252533E678EBB5CC5BF64 /* DuitkuClient.swift */; };
+		32F54B3DA51A87B6EA536D2CD9D22CC7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947792CF837693C41B54E09EE8C3E0B /* Helper.swift */; };
+		3487478724DA51B6004922B6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3487478624DA51B6004922B6 /* WebKit.framework */; };
+		3487478924DA666C004922B6 /* Animated.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3487478824DA666C004922B6 /* Animated.bundle */; };
+		3D34E156AFDCBA7D4E3CC9D9BC07C3FC /* DuitkuSDkIos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE0A5AE02A6BE657C62201193B528B5 /* DuitkuSDkIos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67BB65F039906FFA19F96E4663910339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		76887EA7A585438DC848B098EF23804C /* icons8-more_than.png in Sources */ = {isa = PBXBuildFile; fileRef = 4472922A7D65A030CB9FD73BDCF11986 /* icons8-more_than.png */; };
+		78A4297F0A3373C87AA8BA18E11EC951 /* CheckoutDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BBF75BFC1DA4C759E172AE0088D96 /* CheckoutDuitku.swift */; };
+		7947D5B5DE813CC0CC684346C004834C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5AF1AEE354C1A6F15AA43944EAFBA /* ReplaceMe.swift */; };
+		7E5062F0F8A0CA17291BA997C8439D10 /* ListPaymentDuitku.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D724D964E766A82C7BD7AA30D172D8F6 /* ListPaymentDuitku.storyboard */; };
+		A0A525CECB2B51C76E798BC4227EC1A3 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39674CE00486CFAC6324F5D68A9A92 /* Sandbox.swift */; };
 		A8074120EC4FDADF6CE785FBE7DC06A5 /* Pods-DuitkuSDkIos_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3304990099E0A490514DDED1466B15 /* Pods-DuitkuSDkIos_Example-dummy.m */; };
-		B03B76865FCB472DB8EABA8AA0338A7D /* CheckoutDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017BB737D674D17CCFE93EAA3FC55E2 /* CheckoutDuitku.swift */; };
-		B22401FB52729851C1F0FB45A1A785E2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58C34EB61595BA8284E4F4D4E7C1275 /* ReplaceMe.swift */; };
-		B28AF3FA0A6857DECF61C26AE0B31962 /* ListPaymentDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520CED45FABBCFD326A7521628FA8349 /* ListPaymentDuitku.swift */; };
+		AB6F8E2B7F18BDBA4316BD457D354372 /* listPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC1034C12F6D94AEE90B788019450DD /* listPayment.swift */; };
+		AD487177E92DD2C231CBEC04C08D5F85 /* TableViewCellPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DDF72F2F4E070D6904BE71BCA1392E /* TableViewCellPayment.swift */; };
+		ADA99064465BC3383C5267A0DC58D671 /* AnimatedDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0067FFE5419D1356C8904A3F6D23402 /* AnimatedDuitku.swift */; };
+		AED0ECB3D7E5F8589360A0DF044DF404 /* DuitkuSDkIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31681421E642B0CC03F784AD5B2FA653 /* DuitkuSDkIos-dummy.m */; };
 		C5A325D292F74E74FB54B1C4197F101C /* Pods-DuitkuSDkIos_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC636B20DC36AF9859050DE96FB2330 /* Pods-DuitkuSDkIos_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC5F0174CB5B154DAFC3DC9C91C98BB1 /* listPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9C89134EDBF334AAB9D039874F4C4 /* listPayment.swift */; };
-		E25F45E46DB89FF24DA98055C619DEFC /* icons8-more_than.png in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3D4F02B92C947ECCF0AECAAC3C50 /* icons8-more_than.png */; };
+		E67CD58685407D9BE49787480868E305 /* DuitkuKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B7116DD064CE9AD6DD61FFFF8CF6B /* DuitkuKit.swift */; };
+		FEC9B95FCA9D8E814B3B84ECA0D81746 /* ListPaymentDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A6F8B5825C9806A47A5B1F283642F9 /* ListPaymentDuitku.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,71 +37,55 @@
 			remoteGlobalIDString = E773C90CDA3E9443170AB93700A6C760;
 			remoteInfo = DuitkuSDkIos;
 		};
-		E0ED7162B1F57027D1BE7854EB6F9D24 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3462CF2AF82F7E789322499CC9A356D4;
-			remoteInfo = "DuitkuSDkIos-DuitkuSDkIos";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0017BB737D674D17CCFE93EAA3FC55E2 /* CheckoutDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutDuitku.swift; path = DuitkuSDkIos/Classes/CheckoutDuitku.swift; sourceTree = "<group>"; };
-		04CC3D4F02B92C947ECCF0AECAAC3C50 /* icons8-more_than.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-more_than.png"; path = "DuitkuSDkIos/Classes/icons8-more_than.png"; sourceTree = "<group>"; };
-		0AA6FF9AC4C1A714201C8D9FF5E68A92 /* DuitkuSDkIos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuitkuSDkIos-umbrella.h"; sourceTree = "<group>"; };
-		0B86CA23226A70C72DBA3EA7AEF04334 /* DuitkuSDkIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuitkuSDkIos.release.xcconfig; sourceTree = "<group>"; };
+		0646DE94F89252533E678EBB5CC5BF64 /* DuitkuClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuClient.swift; path = DuitkuSDkIos/Classes/DuitkuClient.swift; sourceTree = "<group>"; };
+		123DAE94C33FCE10D3062F0A2759B1EC /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DuitkuSDkIos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18F335B14F7F6CE10DA5848ED4B49699 /* DuitkuSDkIos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DuitkuSDkIos.modulemap; sourceTree = "<group>"; };
 		19DCC58EA0AD2706F3E6F0F0A9405C22 /* DuitkuSDkIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DuitkuSDkIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE0A5AE02A6BE657C62201193B528B5 /* DuitkuSDkIos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuitkuSDkIos-umbrella.h"; sourceTree = "<group>"; };
+		1C39674CE00486CFAC6324F5D68A9A92 /* Sandbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sandbox.swift; path = DuitkuSDkIos/Classes/Sandbox.swift; sourceTree = "<group>"; };
 		1FB1AF3C0E6388AF314B041ED00765C5 /* Pods_DuitkuSDkIos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuitkuSDkIos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21E6BF25DF3CE8B391007482296EF8FA /* DuitkuKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuKit.swift; path = DuitkuSDkIos/Classes/DuitkuKit.swift; sourceTree = "<group>"; };
 		2C6F0FC06A06F4F5D40695D324ECE7F1 /* Pods-DuitkuSDkIos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DuitkuSDkIos_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DE12D46EA2E505BF4C1B0452F567081 /* ListPaymentDuitku.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ListPaymentDuitku.storyboard; path = DuitkuSDkIos/Classes/ListPaymentDuitku.storyboard; sourceTree = "<group>"; };
+		31681421E642B0CC03F784AD5B2FA653 /* DuitkuSDkIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DuitkuSDkIos-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3423F92824D94BCE0086AE18 /* SDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SDK.bundle; path = DuitkuSDkIos/Classes/SDK.bundle; sourceTree = "<group>"; };
-		3423F92A24D94D750086AE18 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3487478624DA51B6004922B6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3487478824DA666C004922B6 /* Animated.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Animated.bundle; path = DuitkuSDkIos/Assets/Animated.bundle; sourceTree = "<group>"; };
+		4472922A7D65A030CB9FD73BDCF11986 /* icons8-more_than.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-more_than.png"; path = "DuitkuSDkIos/Classes/icons8-more_than.png"; sourceTree = "<group>"; };
+		460BBF75BFC1DA4C759E172AE0088D96 /* CheckoutDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutDuitku.swift; path = DuitkuSDkIos/Classes/CheckoutDuitku.swift; sourceTree = "<group>"; };
+		4B76C2FAA837D36D4A9D5BA70DC3FE5C /* DuitkuSDkIos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuitkuSDkIos-prefix.pch"; sourceTree = "<group>"; };
 		4C3304990099E0A490514DDED1466B15 /* Pods-DuitkuSDkIos_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DuitkuSDkIos_Example-dummy.m"; sourceTree = "<group>"; };
-		5204AE7F50AC883945C854663709D950 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		520CED45FABBCFD326A7521628FA8349 /* ListPaymentDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListPaymentDuitku.swift; path = DuitkuSDkIos/Classes/ListPaymentDuitku.swift; sourceTree = "<group>"; };
-		61F4490CF0EC0EA2C0775259105A3F5A /* Sandbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sandbox.swift; path = DuitkuSDkIos/Classes/Sandbox.swift; sourceTree = "<group>"; };
-		6441DFB487BE84EBD37E5EC1D976D098 /* DuitkuSDkIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DuitkuSDkIos-dummy.m"; sourceTree = "<group>"; };
-		66E1043092F9530004F0C07CD62D2093 /* DuitkuSDkIos.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuitkuSDkIos.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BE5192AE71280192CDE27314B635D5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69DDF72F2F4E070D6904BE71BCA1392E /* TableViewCellPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellPayment.swift; path = DuitkuSDkIos/Classes/TableViewCellPayment.swift; sourceTree = "<group>"; };
+		7651946192F0261EBC349A09670A8A3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7EA5AF1AEE354C1A6F15AA43944EAFBA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DuitkuSDkIos/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		86F57C9E5209455A1B57CCA1D0268F79 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8DED9786E3FF7438E4ABCDE491505699 /* Pods-DuitkuSDkIos_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DuitkuSDkIos_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8EB9C89134EDBF334AAB9D039874F4C4 /* listPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = listPayment.swift; path = DuitkuSDkIos/Classes/listPayment.swift; sourceTree = "<group>"; };
+		9A9DC458F452CE9A03A3D3F8F5B78312 /* DuitkuSDkIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuitkuSDkIos.release.xcconfig; sourceTree = "<group>"; };
+		9BBF3C676E6577B970C041AD3A892F0F /* DuitkuSDkIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuitkuSDkIos.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9B362341E7A9294737804279A1DFD4 /* DuitkuSDkIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuitkuSDkIos.debug.xcconfig; sourceTree = "<group>"; };
-		A4DD6572A6C00A41B1778AEE0668211E /* Animated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animated.swift; path = DuitkuSDkIos/Classes/Animated.swift; sourceTree = "<group>"; };
 		A9C5271AE501546738DBDA7A2A3913B6 /* Pods-DuitkuSDkIos_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DuitkuSDkIos_Example.modulemap"; sourceTree = "<group>"; };
-		B90826902485CD5CAF8B638EA343F7ED /* DuitkuSDkIos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuitkuSDkIos-prefix.pch"; sourceTree = "<group>"; };
+		B2F5E895DEC5DA89E11C5738104358BF /* DuitkuSDkIos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DuitkuSDkIos-Info.plist"; sourceTree = "<group>"; };
+		B947792CF837693C41B54E09EE8C3E0B /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = DuitkuSDkIos/Classes/Helper.swift; sourceTree = "<group>"; };
+		BC9B7116DD064CE9AD6DD61FFFF8CF6B /* DuitkuKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuKit.swift; path = DuitkuSDkIos/Classes/DuitkuKit.swift; sourceTree = "<group>"; };
 		C02543C7BE1B9D8DA27E31B7F8F22849 /* Pods-DuitkuSDkIos_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DuitkuSDkIos_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C79D1B724154B61B843D46621BB4F0A2 /* DuitkuSDkIos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DuitkuSDkIos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C989ABAA64EA29911941DC11EC5EED06 /* TableViewCellPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellPayment.swift; path = DuitkuSDkIos/Classes/TableViewCellPayment.swift; sourceTree = "<group>"; };
 		CAAAD3CD3F552249CBC6517030213936 /* Pods-DuitkuSDkIos_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DuitkuSDkIos_Example-Info.plist"; sourceTree = "<group>"; };
-		D3CA995102E10BEA433C0DA45B668441 /* DuitkuClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuClient.swift; path = DuitkuSDkIos/Classes/DuitkuClient.swift; sourceTree = "<group>"; };
-		DCA93AC881FE83845884DA3A7836E7CB /* DuitkuSDkIos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DuitkuSDkIos-Info.plist"; sourceTree = "<group>"; };
+		D724D964E766A82C7BD7AA30D172D8F6 /* ListPaymentDuitku.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ListPaymentDuitku.storyboard; path = DuitkuSDkIos/Classes/ListPaymentDuitku.storyboard; sourceTree = "<group>"; };
 		DF61AD7FA2CC320EC8BAA70AD689B7D0 /* Pods-DuitkuSDkIos_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DuitkuSDkIos_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EEC636B20DC36AF9859050DE96FB2330 /* Pods-DuitkuSDkIos_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DuitkuSDkIos_Example-umbrella.h"; sourceTree = "<group>"; };
-		F1C03A58E7CDEE6A5EA783F50FF7F960 /* DuitkuSDkIos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DuitkuSDkIos.modulemap; sourceTree = "<group>"; };
-		F58C34EB61595BA8284E4F4D4E7C1275 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DuitkuSDkIos/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F8C48E15F083DC9EE84F18E4B47320B6 /* ResourceBundle-DuitkuSDkIos-DuitkuSDkIos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DuitkuSDkIos-DuitkuSDkIos-Info.plist"; sourceTree = "<group>"; };
-		FADD9B665E1CFF8EEAA25021A3D95B04 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = DuitkuSDkIos/Classes/Helper.swift; sourceTree = "<group>"; };
+		F0067FFE5419D1356C8904A3F6D23402 /* AnimatedDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedDuitku.swift; path = DuitkuSDkIos/Classes/AnimatedDuitku.swift; sourceTree = "<group>"; };
+		F0E3ED49B2F6697CDB6C88BDFD193481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4A6F8B5825C9806A47A5B1F283642F9 /* ListPaymentDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListPaymentDuitku.swift; path = DuitkuSDkIos/Classes/ListPaymentDuitku.swift; sourceTree = "<group>"; };
+		FFC1034C12F6D94AEE90B788019450DD /* listPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = listPayment.swift; path = DuitkuSDkIos/Classes/listPayment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		637AF9A57EF4803B978FBC99970195D5 /* Frameworks */ = {
+		B1743DCF62703C7A9ADBAC2F9F5702AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D38445A62F4FC796A5935A72A5781318 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3423F92B24D94D750086AE18 /* WebKit.framework in Frameworks */,
-				46987094EF6E2746B057511B0705A561 /* Foundation.framework in Frameworks */,
+				3487478724DA51B6004922B6 /* WebKit.framework in Frameworks */,
+				67BB65F039906FFA19F96E4663910339 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,62 +108,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		17CB947A2EF55C7C8A2A239F4525A4E9 /* Products */ = {
+		2762657D3AE19BC95AF594491FB9A37F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				66E1043092F9530004F0C07CD62D2093 /* DuitkuSDkIos.bundle */,
+				B4638E070FD0491007893FB430CB655E /* DuitkuSDkIos */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		835C452E21E5235F1836CDC087FD5833 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				123DAE94C33FCE10D3062F0A2759B1EC /* DuitkuSDkIos.podspec */,
+				F0E3ED49B2F6697CDB6C88BDFD193481 /* LICENSE */,
+				7651946192F0261EBC349A09670A8A3B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8DDF86D54424831F868B728ED9016504 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F335B14F7F6CE10DA5848ED4B49699 /* DuitkuSDkIos.modulemap */,
+				31681421E642B0CC03F784AD5B2FA653 /* DuitkuSDkIos-dummy.m */,
+				B2F5E895DEC5DA89E11C5738104358BF /* DuitkuSDkIos-Info.plist */,
+				4B76C2FAA837D36D4A9D5BA70DC3FE5C /* DuitkuSDkIos-prefix.pch */,
+				1AE0A5AE02A6BE657C62201193B528B5 /* DuitkuSDkIos-umbrella.h */,
+				9BBF3C676E6577B970C041AD3A892F0F /* DuitkuSDkIos.debug.xcconfig */,
+				9A9DC458F452CE9A03A3D3F8F5B78312 /* DuitkuSDkIos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DuitkuSDkIos";
+			sourceTree = "<group>";
+		};
+		A6853B5C8566A9E69330B09E7B819C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				19DCC58EA0AD2706F3E6F0F0A9405C22 /* DuitkuSDkIos.framework */,
 				1FB1AF3C0E6388AF314B041ED00765C5 /* Pods_DuitkuSDkIos_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82DA74374B080AC27B06583396C703D9 /* DuitkuSDkIos */ = {
+		B4638E070FD0491007893FB430CB655E /* DuitkuSDkIos */ = {
 			isa = PBXGroup;
 			children = (
-				0017BB737D674D17CCFE93EAA3FC55E2 /* CheckoutDuitku.swift */,
-				D3CA995102E10BEA433C0DA45B668441 /* DuitkuClient.swift */,
-				21E6BF25DF3CE8B391007482296EF8FA /* DuitkuKit.swift */,
-				A4DD6572A6C00A41B1778AEE0668211E /* Animated.swift */,
-				FADD9B665E1CFF8EEAA25021A3D95B04 /* Helper.swift */,
-				04CC3D4F02B92C947ECCF0AECAAC3C50 /* icons8-more_than.png */,
-				8EB9C89134EDBF334AAB9D039874F4C4 /* listPayment.swift */,
-				2DE12D46EA2E505BF4C1B0452F567081 /* ListPaymentDuitku.storyboard */,
-				520CED45FABBCFD326A7521628FA8349 /* ListPaymentDuitku.swift */,
-				F58C34EB61595BA8284E4F4D4E7C1275 /* ReplaceMe.swift */,
-				61F4490CF0EC0EA2C0775259105A3F5A /* Sandbox.swift */,
-				C989ABAA64EA29911941DC11EC5EED06 /* TableViewCellPayment.swift */,
-				DA63E9FEE4FC525BB7C6B9321884B440 /* Pod */,
-				EBF3C26F0CAAB6E44D3E20B41539FBC2 /* Resources */,
-				9C6DCC424F5F4047E72D492F76A8B6DC /* Support Files */,
-				3423F92824D94BCE0086AE18 /* SDK.bundle */,
+				F0067FFE5419D1356C8904A3F6D23402 /* AnimatedDuitku.swift */,
+				460BBF75BFC1DA4C759E172AE0088D96 /* CheckoutDuitku.swift */,
+				0646DE94F89252533E678EBB5CC5BF64 /* DuitkuClient.swift */,
+				BC9B7116DD064CE9AD6DD61FFFF8CF6B /* DuitkuKit.swift */,
+				B947792CF837693C41B54E09EE8C3E0B /* Helper.swift */,
+				4472922A7D65A030CB9FD73BDCF11986 /* icons8-more_than.png */,
+				FFC1034C12F6D94AEE90B788019450DD /* listPayment.swift */,
+				D724D964E766A82C7BD7AA30D172D8F6 /* ListPaymentDuitku.storyboard */,
+				F4A6F8B5825C9806A47A5B1F283642F9 /* ListPaymentDuitku.swift */,
+				7EA5AF1AEE354C1A6F15AA43944EAFBA /* ReplaceMe.swift */,
+				1C39674CE00486CFAC6324F5D68A9A92 /* Sandbox.swift */,
+				69DDF72F2F4E070D6904BE71BCA1392E /* TableViewCellPayment.swift */,
+				835C452E21E5235F1836CDC087FD5833 /* Pod */,
+				8DDF86D54424831F868B728ED9016504 /* Support Files */,
+				3487478824DA666C004922B6 /* Animated.bundle */,
 			);
 			name = DuitkuSDkIos;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9C6DCC424F5F4047E72D492F76A8B6DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1C03A58E7CDEE6A5EA783F50FF7F960 /* DuitkuSDkIos.modulemap */,
-				6441DFB487BE84EBD37E5EC1D976D098 /* DuitkuSDkIos-dummy.m */,
-				DCA93AC881FE83845884DA3A7836E7CB /* DuitkuSDkIos-Info.plist */,
-				B90826902485CD5CAF8B638EA343F7ED /* DuitkuSDkIos-prefix.pch */,
-				0AA6FF9AC4C1A714201C8D9FF5E68A92 /* DuitkuSDkIos-umbrella.h */,
-				9D9B362341E7A9294737804279A1DFD4 /* DuitkuSDkIos.debug.xcconfig */,
-				0B86CA23226A70C72DBA3EA7AEF04334 /* DuitkuSDkIos.release.xcconfig */,
-				F8C48E15F083DC9EE84F18E4B47320B6 /* ResourceBundle-DuitkuSDkIos-DuitkuSDkIos-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DuitkuSDkIos";
-			sourceTree = "<group>";
-		};
-		AC33B86BAF84F3429B544140242C84CD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82DA74374B080AC27B06583396C703D9 /* DuitkuSDkIos */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -195,9 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AC33B86BAF84F3429B544140242C84CD /* Development Pods */,
+				2762657D3AE19BC95AF594491FB9A37F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				17CB947A2EF55C7C8A2A239F4525A4E9 /* Products */,
+				A6853B5C8566A9E69330B09E7B819C2D /* Products */,
 				151A1FBF16BAF2CE6621E502035E05A3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -222,40 +212,15 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3423F92A24D94D750086AE18 /* WebKit.framework */,
+				3487478624DA51B6004922B6 /* WebKit.framework */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA63E9FEE4FC525BB7C6B9321884B440 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C79D1B724154B61B843D46621BB4F0A2 /* DuitkuSDkIos.podspec */,
-				5204AE7F50AC883945C854663709D950 /* LICENSE */,
-				7BE5192AE71280192CDE27314B635D5A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EBF3C26F0CAAB6E44D3E20B41539FBC2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5F8B053F090C8EA7A1B07785FF7B5FB0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6CCC6670F1D19F5BB3A967D1415335D8 /* DuitkuSDkIos-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C0816245E5F2C15D59E009F9CD698F41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,26 +229,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5AD381E5FFBDA5106DE9A6EC83B4DFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D34E156AFDCBA7D4E3CC9D9BC07C3FC /* DuitkuSDkIos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3462CF2AF82F7E789322499CC9A356D4 /* DuitkuSDkIos-DuitkuSDkIos */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C465F92DB71A7093CA50E4F00EBDB348 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos-DuitkuSDkIos" */;
-			buildPhases = (
-				32461343CA9E38D48CDA01CEAB95BFCD /* Sources */,
-				637AF9A57EF4803B978FBC99970195D5 /* Frameworks */,
-				D66EF16766CCDC1FAA5AB7ACEA3B0A8D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DuitkuSDkIos-DuitkuSDkIos";
-			productName = "DuitkuSDkIos-DuitkuSDkIos";
-			productReference = 66E1043092F9530004F0C07CD62D2093 /* DuitkuSDkIos.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		8294B3F2D0BD9D55FFFD7F7299712C65 /* Pods-DuitkuSDkIos_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7183AFFA56E853812A8574E15723A760 /* Build configuration list for PBXNativeTarget "Pods-DuitkuSDkIos_Example" */;
@@ -305,17 +261,16 @@
 		};
 		E773C90CDA3E9443170AB93700A6C760 /* DuitkuSDkIos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4B411FC209521D4C828E15A807E72DF /* Build configuration list for PBXNativeTarget "DuitkuSDkIos" */;
+			buildConfigurationList = 650E28F54B94D85910475B7D76266736 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos" */;
 			buildPhases = (
-				5F8B053F090C8EA7A1B07785FF7B5FB0 /* Headers */,
-				082CF0D72056D721DF7DA71C132686A8 /* Sources */,
-				D38445A62F4FC796A5935A72A5781318 /* Frameworks */,
-				3AB38B4B04DC81C333DE2DBFE55E909F /* Resources */,
+				E5AD381E5FFBDA5106DE9A6EC83B4DFB /* Headers */,
+				E8BAF43FC15F2930FCFB8230793B086C /* Sources */,
+				B1743DCF62703C7A9ADBAC2F9F5702AA /* Frameworks */,
+				57EACF43625EC899D5B30290D97D9514 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C81053C2131606FBDC808D55E416F064 /* PBXTargetDependency */,
 			);
 			name = DuitkuSDkIos;
 			productName = DuitkuSDkIos;
@@ -340,35 +295,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 17CB947A2EF55C7C8A2A239F4525A4E9 /* Products */;
+			productRefGroup = A6853B5C8566A9E69330B09E7B819C2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E773C90CDA3E9443170AB93700A6C760 /* DuitkuSDkIos */,
-				3462CF2AF82F7E789322499CC9A356D4 /* DuitkuSDkIos-DuitkuSDkIos */,
 				8294B3F2D0BD9D55FFFD7F7299712C65 /* Pods-DuitkuSDkIos_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3AB38B4B04DC81C333DE2DBFE55E909F /* Resources */ = {
+		57EACF43625EC899D5B30290D97D9514 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3423F92924D94BCE0086AE18 /* SDK.bundle in Resources */,
-				041DCCBA081CAA15E728F1F22761A4C7 /* DuitkuSDkIos.bundle in Resources */,
+				3487478924DA666C004922B6 /* Animated.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		704B6DE59A2ACFB040DC2FEEE616BF4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D66EF16766CCDC1FAA5AB7ACEA3B0A8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,42 +332,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		082CF0D72056D721DF7DA71C132686A8 /* Sources */ = {
+		E8BAF43FC15F2930FCFB8230793B086C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03B76865FCB472DB8EABA8AA0338A7D /* CheckoutDuitku.swift in Sources */,
-				11EE8C4C6F25F7D05D45E7A70AF83840 /* DuitkuClient.swift in Sources */,
-				44DD77F3AC820C5AE18AB2CBA203C342 /* DuitkuKit.swift in Sources */,
-				06835DCFC08E98020CEEB6DED0F8718D /* DuitkuSDkIos-dummy.m in Sources */,
-				88A7CF8559AFE1C1362D096CF3F4F094 /* Animated.swift in Sources */,
-				A0D0F75C01818D89DBDDF72452D77CAE /* Helper.swift in Sources */,
-				E25F45E46DB89FF24DA98055C619DEFC /* icons8-more_than.png in Sources */,
-				CC5F0174CB5B154DAFC3DC9C91C98BB1 /* listPayment.swift in Sources */,
-				45FE2668739ACC8EF28C1F737DCE5EC1 /* ListPaymentDuitku.storyboard in Sources */,
-				B28AF3FA0A6857DECF61C26AE0B31962 /* ListPaymentDuitku.swift in Sources */,
-				B22401FB52729851C1F0FB45A1A785E2 /* ReplaceMe.swift in Sources */,
-				2D5468DDEB5439A1E1656234171B9B5F /* Sandbox.swift in Sources */,
-				1E738D161622A332578B4EDA4F335E8E /* TableViewCellPayment.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32461343CA9E38D48CDA01CEAB95BFCD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ADA99064465BC3383C5267A0DC58D671 /* AnimatedDuitku.swift in Sources */,
+				78A4297F0A3373C87AA8BA18E11EC951 /* CheckoutDuitku.swift in Sources */,
+				218C661630A8BBB725950FF045186634 /* DuitkuClient.swift in Sources */,
+				E67CD58685407D9BE49787480868E305 /* DuitkuKit.swift in Sources */,
+				AED0ECB3D7E5F8589360A0DF044DF404 /* DuitkuSDkIos-dummy.m in Sources */,
+				32F54B3DA51A87B6EA536D2CD9D22CC7 /* Helper.swift in Sources */,
+				76887EA7A585438DC848B098EF23804C /* icons8-more_than.png in Sources */,
+				AB6F8E2B7F18BDBA4316BD457D354372 /* listPayment.swift in Sources */,
+				7E5062F0F8A0CA17291BA997C8439D10 /* ListPaymentDuitku.storyboard in Sources */,
+				FEC9B95FCA9D8E814B3B84ECA0D81746 /* ListPaymentDuitku.swift in Sources */,
+				7947D5B5DE813CC0CC684346C004834C /* ReplaceMe.swift in Sources */,
+				A0A525CECB2B51C76E798BC4227EC1A3 /* Sandbox.swift in Sources */,
+				AD487177E92DD2C231CBEC04C08D5F85 /* TableViewCellPayment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C81053C2131606FBDC808D55E416F064 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DuitkuSDkIos-DuitkuSDkIos";
-			target = 3462CF2AF82F7E789322499CC9A356D4 /* DuitkuSDkIos-DuitkuSDkIos */;
-			targetProxy = E0ED7162B1F57027D1BE7854EB6F9D24 /* PBXContainerItemProxy */;
-		};
 		E177139E3FA7CD82DFE8F1394989EE70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DuitkuSDkIos;
@@ -526,9 +459,42 @@
 			};
 			name = Release;
 		};
-		2672EBD1AABC0E513DFEA3ED3487A886 /* Release */ = {
+		2216919A73487646B5DC69B7EEB4B8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B86CA23226A70C72DBA3EA7AEF04334 /* DuitkuSDkIos.release.xcconfig */;
+			baseConfigurationReference = 9BBF3C676E6577B970C041AD3A892F0F /* DuitkuSDkIos.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos.modulemap";
+				PRODUCT_MODULE_NAME = DuitkuSDkIos;
+				PRODUCT_NAME = DuitkuSDkIos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D7C3F7CA6C115C4D3007642CC4C6E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9DC458F452CE9A03A3D3F8F5B78312 /* DuitkuSDkIos.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -559,73 +525,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		580A88BF0154052A66B4425FCA8D05F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B86CA23226A70C72DBA3EA7AEF04334 /* DuitkuSDkIos.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DuitkuSDkIos";
-				IBSC_MODULE = DuitkuSDkIos;
-				INFOPLIST_FILE = "Target Support Files/DuitkuSDkIos/ResourceBundle-DuitkuSDkIos-DuitkuSDkIos-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = DuitkuSDkIos;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5C2F2F9C3B9E09D2EA886FECEEF19E7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D9B362341E7A9294737804279A1DFD4 /* DuitkuSDkIos.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DuitkuSDkIos";
-				IBSC_MODULE = DuitkuSDkIos;
-				INFOPLIST_FILE = "Target Support Files/DuitkuSDkIos/ResourceBundle-DuitkuSDkIos-DuitkuSDkIos-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = DuitkuSDkIos;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		91F65BEFFD71616E7556062761769E19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D9B362341E7A9294737804279A1DFD4 /* DuitkuSDkIos.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DuitkuSDkIos/DuitkuSDkIos.modulemap";
-				PRODUCT_MODULE_NAME = DuitkuSDkIos;
-				PRODUCT_NAME = DuitkuSDkIos;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B963CC86710B44699D7402ACC2CFB8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -738,29 +637,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		650E28F54B94D85910475B7D76266736 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216919A73487646B5DC69B7EEB4B8F1 /* Debug */,
+				9D7C3F7CA6C115C4D3007642CC4C6E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7183AFFA56E853812A8574E15723A760 /* Build configuration list for PBXNativeTarget "Pods-DuitkuSDkIos_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E311A408EF32C91C68819E745D51202E /* Debug */,
 				16B8A41857426E706E2D3D1233248B77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4B411FC209521D4C828E15A807E72DF /* Build configuration list for PBXNativeTarget "DuitkuSDkIos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91F65BEFFD71616E7556062761769E19 /* Debug */,
-				2672EBD1AABC0E513DFEA3ED3487A886 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C465F92DB71A7093CA50E4F00EBDB348 /* Build configuration list for PBXNativeTarget "DuitkuSDkIos-DuitkuSDkIos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C2F2F9C3B9E09D2EA886FECEEF19E7C /* Debug */,
-				580A88BF0154052A66B4425FCA8D05F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

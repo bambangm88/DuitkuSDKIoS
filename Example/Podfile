@@ -8,8 +8,7 @@ target 'DuitkuSDkIos_Example' do
 
   pod 'DuitkuSDkIos', :path => '../'
   
-   # pod 'DuitkuSDkIos', '~> 0.0'
-  #pod 'DuitkuSDkIos', '~> 0.2'
+
 
 
   # Pods for DuitkuSDkIos_Example

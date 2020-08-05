@@ -43,7 +43,7 @@ class Order: DuitkuClient{
         
         
         if product == "ipod" {
-            var yourImage: UIImage = UIImage(named: "ipod")!
+            let yourImage: UIImage = UIImage(named: "ipod")!
             imgOrder.image = yourImage
             judul.text = "All New Earphone K200"
             harga.text = "Rp "+String(10000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
@@ -51,7 +51,7 @@ class Order: DuitkuClient{
             
             
         }else if product == "sepatu" {
-            var yourImage: UIImage = UIImage(named: "sepatu")!
+            let yourImage: UIImage = UIImage(named: "sepatu")!
             imgOrder.image = yourImage
             judul.text = "Casual Shoes MA500"
             harga.text = "Rp "+String(250000).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
@@ -64,10 +64,10 @@ class Order: DuitkuClient{
 
     @IBAction func purchase(_ sender: Any) {
         
-             var amount = (total.text)!.numericString
-             var harga_ = (harga.text)!.numericString
-             var jumlah_ = (jumlah.text)!
-             var product = (judul.text)!
+             let amount = (total.text)!.numericString
+             let harga_ = (harga.text)!.numericString
+             let jumlah_ = (jumlah.text)!
+             let product = (judul.text)!
            
         
         let refreshAlert = UIAlertController(title: "Purchase", message: "Lanjut Pembayaran", preferredStyle: UIAlertControllerStyle.alert)
@@ -98,14 +98,14 @@ class Order: DuitkuClient{
         
 
         
-        var jumlahPesan : String = (self.jumlah.text)!
-        var harga: String = (self.harga.text)!.numericString
+        let jumlahPesan : String = (self.jumlah.text)!
+        let harga: String = (self.harga.text)!.numericString
         
         if Int(jumlahPesan)!  > 1 {
             
-          var total_jumlah_pesanan : Int =  Int(jumlahPesan)! - 1
+          let total_jumlah_pesanan : Int =  Int(jumlahPesan)! - 1
           self.jumlah.text = String(total_jumlah_pesanan)
-          var totalharga :Int =  Int(harga)! * total_jumlah_pesanan
+          let totalharga :Int =  Int(harga)! * total_jumlah_pesanan
           self.total.text = "Rp "+String(totalharga).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
             
         }else{
@@ -117,14 +117,14 @@ class Order: DuitkuClient{
     }
     
     @IBAction func btn_tambah(_ sender: Any) {
-        var jumlahPesan : String = (self.jumlah.text)!
-        var harga: String = (self.harga.text)!.numericString
+        let jumlahPesan : String = (self.jumlah.text)!
+        let harga: String = (self.harga.text)!.numericString
         
         
         if Int(jumlahPesan)!  < 10 {
-              var total_jumlah_pesanan =  Int(jumlahPesan)! + 1
+              let total_jumlah_pesanan =  Int(jumlahPesan)! + 1
               self.jumlah.text = String(total_jumlah_pesanan)
-              var totalharga :Int = Int(harga)! * total_jumlah_pesanan
+              let totalharga :Int = Int(harga)! * total_jumlah_pesanan
               self.total.text = "Rp "+String(totalharga).convertDoubleToCurrency().replacingOccurrences(of: "$", with: "").replacingOccurrences(of: ".00", with: "")
         }else{
               Helper.showToast(message: "Stok Kurang dari 10", context: self)
@@ -142,20 +142,17 @@ class Order: DuitkuClient{
     
     
     override func onSuccess_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-        print("tes response" + status)
         Helper.showToast(message: status, context: self)
         clearSdkTask()
         
     }
     
     override func onPending_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-       print("tes response" + status)
         Helper.showToast(message: status, context: self)
         clearSdkTask()
     }
     
     override func onCanceled_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-        print("tes response" + status)
         Helper.showToast(message: status, context: self)
         clearSdkTask()
     }
