@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
   
   s.resource_bundles = {
-     'Animated' => ['DuitkuSDkIos/Assets/Animated.bundle']
+     'Animated' => ['DuitkuSDkIos/Resources/Animated.bundle']
   }
 
 
