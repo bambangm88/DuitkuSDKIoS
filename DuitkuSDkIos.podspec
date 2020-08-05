@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DuitkuSDkIos'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'duitku sdk is lib for integration payment on your apps ios.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
   
   s.resource_bundles = {
-     'Animated' => ['DuitkuSDkIos/Resources/Animated.bundle']
+     'Animated' => ['DuitkuSDkIos/Resources/*/**']
   }
 
 
