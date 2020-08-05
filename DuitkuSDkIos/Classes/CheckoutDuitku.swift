@@ -331,18 +331,21 @@ class CheckoutDuitku: UIViewController  {
                                                                                      
                                  }
                                 
-                                 let vc = self.storyboard?.instantiateViewController(withIdentifier:"listPaymentDuitku") as!ListPaymentDuitku
-                                 vc.viewWillAppear(true)
+                    
                                  
                                  // helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: false)
                                  self.modeInformation(status: statusMessage, reference: reference, amount: amount, code: code, merchantOrderId: orderId );
                                  self.navigationController?.popViewController(animated: false)
-                                 //self.popViewControllerss(popViews: 2)
-                                //self.backTwo()
+                                 //self.navigationController?.popToRootViewController(animated: true)
                                 
-                                //let controller = self.navigationController?.viewControllers[1] // it is at index 1. index start from 0, 1 .. N
-                                //self.navigationController?.popToViewController(controller!, animated: true)
+                                let viewControllers: [UIViewController] = self.navigationController!.viewControllers as [UIViewController]
+                                self.navigationController!.popToViewController(viewControllers[viewControllers.count - 2], animated: false)
                                 
+                                
+                                
+                                
+                                
+                    
                                    
                                } /*catch {
 
@@ -378,6 +381,8 @@ class CheckoutDuitku: UIViewController  {
         act.runSandbox(context: self, url: url, webView: webView, reference: Util.REFERENCE , imageLoading: ImageLoading, cardLoading: CardLoading, checkoutDuitku: self)
             
         }else if (Util.MODE_PAYMENT.contains("passport")){
+            let act = Passport();
+              act.runPassport(context: self, url: url, webView: webView, reference: Util.REFERENCE , imageLoading: ImageLoading, cardLoading: CardLoading, checkoutDuitku: self)
             
         }
         

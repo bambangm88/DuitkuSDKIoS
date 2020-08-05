@@ -10,8 +10,8 @@
 		34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557524CA9A4E00DF9992 /* Helper.swift */; };
 		34B1557824CAB15C00DF9992 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B1557724CAB15C00DF9992 /* Order.swift */; };
 		34E6368724D7CAFB0078C5E7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6368624D7CAFB0078C5E7 /* Main.swift */; };
-		34E6368924D7CC890078C5E7 /* LocalStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E6368824D7CC890078C5E7 /* LocalStatusCell.xib */; };
-		34E6368B24D7CCEF0078C5E7 /* testcellcollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6368A24D7CCEF0078C5E7 /* testcellcollection.swift */; };
+		34E6368924D7CC890078C5E7 /* itemProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E6368824D7CC890078C5E7 /* itemProduct.xib */; };
+		34E6368B24D7CCEF0078C5E7 /* itemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6368A24D7CCEF0078C5E7 /* itemProduct.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -35,8 +35,8 @@
 		34B1557524CA9A4E00DF9992 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		34B1557724CAB15C00DF9992 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		34E6368624D7CAFB0078C5E7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		34E6368824D7CC890078C5E7 /* LocalStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalStatusCell.xib; sourceTree = "<group>"; };
-		34E6368A24D7CCEF0078C5E7 /* testcellcollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testcellcollection.swift; sourceTree = "<group>"; };
+		34E6368824D7CC890078C5E7 /* itemProduct.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemProduct.xib; sourceTree = "<group>"; };
+		34E6368A24D7CCEF0078C5E7 /* itemProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemProduct.swift; sourceTree = "<group>"; };
 		5D582EDCD85023204D225F45 /* Pods-DuitkuSDkIos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitkuSDkIos_Example.debug.xcconfig"; path = "Target Support Files/Pods-DuitkuSDkIos_Example/Pods-DuitkuSDkIos_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DuitkuSDkIos_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuitkuSDkIos_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 				34B1557524CA9A4E00DF9992 /* Helper.swift */,
 				34B1557724CAB15C00DF9992 /* Order.swift */,
 				34E6368624D7CAFB0078C5E7 /* Main.swift */,
-				34E6368824D7CC890078C5E7 /* LocalStatusCell.xib */,
-				34E6368A24D7CCEF0078C5E7 /* testcellcollection.swift */,
+				34E6368824D7CC890078C5E7 /* itemProduct.xib */,
+				34E6368A24D7CCEF0078C5E7 /* itemProduct.swift */,
 			);
 			name = "Example for DuitkuSDkIos";
 			path = DuitkuSDkIos;
@@ -252,7 +252,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				34E6368924D7CC890078C5E7 /* LocalStatusCell.xib in Resources */,
+				34E6368924D7CC890078C5E7 /* itemProduct.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +318,7 @@
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				34B1557824CAB15C00DF9992 /* Order.swift in Sources */,
 				34B1557624CA9A4E00DF9992 /* Helper.swift in Sources */,
-				34E6368B24D7CCEF0078C5E7 /* testcellcollection.swift in Sources */,
+				34E6368B24D7CCEF0078C5E7 /* itemProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

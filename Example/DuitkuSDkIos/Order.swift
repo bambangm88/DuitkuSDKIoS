@@ -142,18 +142,26 @@ class Order: DuitkuClient{
     
     
     override func onSuccess_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-        Helper.showToast(message: status, context: self)
+        Main.statusNotifikasi = code
+        
+        
+  
+        self.navigationController?.popViewController(animated: false)
         clearSdkTask()
         
     }
     
     override func onPending_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-        Helper.showToast(message: status, context: self)
+         Main.statusNotifikasi = code
+        
+         self.navigationController?.popViewController(animated: false)
         clearSdkTask()
     }
     
     override func onCanceled_(status: String, reference: String, amount: String, code: String, merchantOrderId: String) {
-        Helper.showToast(message: status, context: self)
+         Main.statusNotifikasi = code
+         
+         self.navigationController?.popViewController(animated: false)
         clearSdkTask()
     }
     
@@ -184,6 +192,7 @@ class Order: DuitkuClient{
              ,city: "kuningan"
              ,postalCode: "45552"
              ,countryCode: "ID"
+             ,merchantOrderId: "" //can empty if merchant order id on web server
         )
         
         //star loop here

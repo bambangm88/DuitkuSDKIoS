@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class testcellcollection: UICollectionViewCell {
+class itemProduct: UICollectionViewCell {
     
 
     @IBOutlet weak var cardview: UIView!
@@ -24,12 +24,10 @@ class testcellcollection: UICollectionViewCell {
         price.text = data.last
         
         Helper.setCardViewShadow(cardItem: self.cardview, radius: 1, opacity: 0.1)
-        
-        
+                
         let a : String = String(data[1])
-         print("tes"+a)
-        let yourImage: UIImage = UIImage(named: a)!
-        imageview.image = yourImage
+        let image: UIImage = UIImage(named: a)!
+        imageview.image = image
     }
     
     

@@ -85,19 +85,17 @@ public class ListPaymentDuitku: UIViewController  {
     
     public override func viewWillAppear(_ animated: Bool) {
         
-        self.navigationController?.isNavigationBarHidden = false
+       self.navigationController?.isNavigationBarHidden = false
         
-        let duitku = DuitkuClient()
-        duitku.duitkuFinish(context: self)
+       let duitku = DuitkuClient()
+       duitku.duitkuFinish(context: self)
         
-        if(Util.redirect && UtilDuitku.isFinished){
+       if(Util.redirect && UtilDuitku.isFinished){
             helper.setLoadingDuitku(Image: LoadingDuitku, view: CardLoading , hidden: false)
             self.navigationController?.popViewController(animated: false)
             print("Util.redirect\(Util.redirect)")
             //self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
-
-        }
-       
+       }
     }
     
  private func loadLisPayment(){

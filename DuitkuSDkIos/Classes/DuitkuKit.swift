@@ -20,6 +20,7 @@ public class DuitkuKit {
     public static var callbackUrl: String = ""
     public static var returnUrl: String = ""
     public static var expiryPeriod: String = ""
+    public static var merchantOrderId: String = ""
     
     //customerDetail
     public static var firstName: String = ""
@@ -32,7 +33,7 @@ public class DuitkuKit {
     public static var countryCode: String = ""
 
     
-    public static func data(paymentAmount: String , productDetails: String , email: String , phoneNumber: String ,additionalParam: String ,  merchantUserInfo: String , customerVaName: String ,  callbackUrl: String , returnUrl: String , expiryPeriod: String , firstName: String ,  lastName: String , alamat: String , city: String , postalCode: String ,  countryCode: String    ) {
+    public static func data(paymentAmount: String , productDetails: String , email: String , phoneNumber: String ,additionalParam: String ,  merchantUserInfo: String , customerVaName: String ,  callbackUrl: String , returnUrl: String , expiryPeriod: String , firstName: String ,  lastName: String , alamat: String , city: String , postalCode: String ,  countryCode: String ,  merchantOrderId: String     ) {
         
         self.paymentAmount = paymentAmount
         self.productDetails = productDetails
@@ -50,6 +51,7 @@ public class DuitkuKit {
         self.city = city
         self.postalCode = postalCode
         self.countryCode = countryCode
+        self.merchantOrderId = merchantOrderId
               
     }
 

@@ -32,12 +32,6 @@ class Helper {
                return false
            }
 
-           /* Only Working for WIFI
-           let isReachable = flags == .reachable
-           let needsConnection = flags == .connectionRequired
-
-           return isReachable && !needsConnection
-           */
 
            // Working for Cellular and WIFI
            let isReachable = (flags.rawValue & UInt32(kSCNetworkFlagsReachable)) != 0
@@ -81,6 +75,7 @@ class Helper {
                                 "additionalParam":DuitkuKit.additionalParam,
                                 "merchantUserInfo":DuitkuKit.merchantUserInfo,
                                 "customerVaName":DuitkuKit.customerVaName,
+                                "merchantOrderId":DuitkuKit.merchantOrderId,
                                 "callbackUrl":DuitkuKit.callbackUrl,
                                 "returnUrl":DuitkuKit.returnUrl,
                                 "expiryPeriod":DuitkuKit.expiryPeriod,

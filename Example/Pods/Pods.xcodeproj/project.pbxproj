@@ -12,6 +12,7 @@
 		32F54B3DA51A87B6EA536D2CD9D22CC7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947792CF837693C41B54E09EE8C3E0B /* Helper.swift */; };
 		3487478724DA51B6004922B6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3487478624DA51B6004922B6 /* WebKit.framework */; };
 		3487478924DA666C004922B6 /* Animated.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3487478824DA666C004922B6 /* Animated.bundle */; };
+		34CF037524DA8C3B00986AB9 /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF037424DA8C3B00986AB9 /* Passport.swift */; };
 		3D34E156AFDCBA7D4E3CC9D9BC07C3FC /* DuitkuSDkIos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE0A5AE02A6BE657C62201193B528B5 /* DuitkuSDkIos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67BB65F039906FFA19F96E4663910339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		76887EA7A585438DC848B098EF23804C /* icons8-more_than.png in Sources */ = {isa = PBXBuildFile; fileRef = 4472922A7D65A030CB9FD73BDCF11986 /* icons8-more_than.png */; };
@@ -52,6 +53,7 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3487478624DA51B6004922B6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3487478824DA666C004922B6 /* Animated.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Animated.bundle; path = DuitkuSDkIos/Assets/Animated.bundle; sourceTree = "<group>"; };
+		34CF037424DA8C3B00986AB9 /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Passport.swift; path = DuitkuSDkIos/Classes/Passport.swift; sourceTree = "<group>"; };
 		4472922A7D65A030CB9FD73BDCF11986 /* icons8-more_than.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-more_than.png"; path = "DuitkuSDkIos/Classes/icons8-more_than.png"; sourceTree = "<group>"; };
 		460BBF75BFC1DA4C759E172AE0088D96 /* CheckoutDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutDuitku.swift; path = DuitkuSDkIos/Classes/CheckoutDuitku.swift; sourceTree = "<group>"; };
 		4B76C2FAA837D36D4A9D5BA70DC3FE5C /* DuitkuSDkIos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuitkuSDkIos-prefix.pch"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				835C452E21E5235F1836CDC087FD5833 /* Pod */,
 				8DDF86D54424831F868B728ED9016504 /* Support Files */,
 				3487478824DA666C004922B6 /* Animated.bundle */,
+				34CF037424DA8C3B00986AB9 /* Passport.swift */,
 			);
 			name = DuitkuSDkIos;
 			path = ../..;
@@ -339,6 +342,7 @@
 				ADA99064465BC3383C5267A0DC58D671 /* AnimatedDuitku.swift in Sources */,
 				78A4297F0A3373C87AA8BA18E11EC951 /* CheckoutDuitku.swift in Sources */,
 				218C661630A8BBB725950FF045186634 /* DuitkuClient.swift in Sources */,
+				34CF037524DA8C3B00986AB9 /* Passport.swift in Sources */,
 				E67CD58685407D9BE49787480868E305 /* DuitkuKit.swift in Sources */,
 				AED0ECB3D7E5F8589360A0DF044DF404 /* DuitkuSDkIos-dummy.m in Sources */,
 				32F54B3DA51A87B6EA536D2CD9D22CC7 /* Helper.swift in Sources */,

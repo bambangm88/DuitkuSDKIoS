@@ -13,6 +13,13 @@ class Main: UIViewController {
   
     @IBOutlet weak var collection: UICollectionView!
     @IBOutlet weak var baner: UIView!
+    @IBOutlet weak var statusPembayaran: UILabel!
+    @IBOutlet weak var imageStatus: UIImageView!
+
+
+    @IBOutlet weak var cardNotification: UIView!
+    
+    public static var statusNotifikasi : String = ""
     
     
      let localStatusData = [["Rp 250.000", "sepatu","Casual Shoes MA500"], ["Rp 10.000","ipod", "All New Earphone K200"]]
@@ -25,11 +32,45 @@ class Main: UIViewController {
                self.navigationController?.navigationBar.barTintColor = UIColor.white
             self.navigationController?.isNavigationBarHidden = false
             self.navigationItem.title = "Duitku Store"
-           
+            
+             
             Helper.setCardViewShadow(cardItem: self.baner, radius: 1, opacity: 0.1)
             configureView()
         }
+    
+    
+    
+    
+        override func viewWillAppear(_ animated: Bool) {
+            
+            print("tes"+Main.statusNotifikasi)
+                        
+            if Main.statusNotifikasi == "00" {
+                self.cardNotification.isHidden = false
+                imageStatus.image = UIImage(named: "icons8-checked")
+                statusPembayaran.text = "Pembayaran Berhasil"
+                Main.statusNotifikasi = ""
+            } else if Main.statusNotifikasi == "01" {
+                self.cardNotification.isHidden = false
+                imageStatus.image = UIImage(named: "icons8-cancel")
+                statusPembayaran.text = "Pembayaran Gagal"
+                Main.statusNotifikasi = ""
+            } else if Main.statusNotifikasi == "02" {
+                self.cardNotification.isHidden = false
+                imageStatus.image = UIImage(named: "icons8-cancel")
+                statusPembayaran.text = "Pembayaran Pending"
+                Main.statusNotifikasi = ""
+            }
+            
+        }
+    
+    
 
+    @IBAction func alertDismiss(_ sender: UIButton) {
+                
+        self.cardNotification.isHidden = true
+        
+    }
 }
 
 
@@ -39,7 +80,7 @@ extension Main: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource ,
     func configureView() {
        // backgroundView.roundCorners(with: [.layerMaxXMaxYCorner, .layerMinXMaxYCorner], radius: 10)
         
-        collection.register(UINib(nibName: "LocalStatusCell", bundle: nil), forCellWithReuseIdentifier: "LocalStatusCell")
+        collection.register(UINib(nibName: "itemProduct", bundle: nil), forCellWithReuseIdentifier: "itemProduct")
        
         collection.delegate = self
         collection.dataSource = self
@@ -62,12 +103,12 @@ extension Main: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource ,
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         switch indexPath.section {
         case 1:
-                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LocalStatusCell", for: indexPath) as?testcellcollection
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "itemProduct", for: indexPath) as?itemProduct
                 let data = localStatusData[indexPath.item]
                 cell?.setupData(data: data)
                 return cell ?? UICollectionViewCell()
         default:
-                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LocalStatusCell", for: indexPath) as?testcellcollection
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "itemProduct", for: indexPath) as?itemProduct
                     let data = localStatusData[indexPath.item]
                     cell?.setupData(data: data)
                     return cell ?? UICollectionViewCell()
