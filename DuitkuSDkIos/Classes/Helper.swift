@@ -168,6 +168,17 @@ class Helper {
     
        
     
+    //set Shadow (Card View)
+    public static func setCardViewShadow(cardItem:UIView){
+       
+       cardItem.layer.shadowColor = UIColor.black.cgColor
+       cardItem.layer.shadowOpacity = 0.07
+       cardItem.layer.shadowOffset = .zero
+       cardItem.layer.shadowRadius = 10
+       
+       
+    }
+    
     
 
     

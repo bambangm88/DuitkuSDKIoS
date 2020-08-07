@@ -13,6 +13,7 @@ class TableViewCellPayment: UITableViewCell {
 
     @IBOutlet weak var labelPrice: UILabel!
     @IBOutlet weak var labelPayment: UILabel!
+    @IBOutlet weak var cardCell: UIView!
     
     @IBOutlet weak var labelDetail: UILabel!
     @IBOutlet weak var imageUrl: UIImageView!
@@ -22,6 +23,7 @@ class TableViewCellPayment: UITableViewCell {
     
     func setListPayment(_ lisPayment_:listPayment){
         
+        Helper.setCardViewShadow(cardItem: cardCell)        
         self.lisPayment_ = lisPayment_
         labelPayment.text = lisPayment_.paymentName
         labelPrice.text = "Bayar dengan "+lisPayment_.paymentName

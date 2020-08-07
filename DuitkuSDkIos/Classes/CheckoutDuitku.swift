@@ -34,8 +34,9 @@ class CheckoutDuitku: UIViewController  {
 
     private let helper = Helper()
     private let sandbox_ = Sandbox()
-    public var num : Int = 0 ;
-    public var  isCheckTransactionDOne : Bool = false ;
+    public var num : Int = 0
+    public var  isCheckTransactionDOne : Bool = false
+    public var contextX : UIViewController = UIViewController()
     
 
     
@@ -314,8 +315,8 @@ class CheckoutDuitku: UIViewController  {
                                 
                                   guard let orderId = json["merchantOrderId"] as? String else {
                                              self.navigationController!.setNavigationBarHidden(false, animated: true)
-                                         self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
-                                         self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
+                                             self.helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                                             self.helper.setErrorDuitku(Image: self.ImageError, view: self.CardError , hidden: false , textError: self.textError , message:   "Server Error")
                                        
                                            return
                                                                                        
@@ -331,21 +332,14 @@ class CheckoutDuitku: UIViewController  {
                                                                                      
                                  }
                                 
-                    
-                                 
                                  // helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: false)
                                  self.modeInformation(status: statusMessage, reference: reference, amount: amount, code: code, merchantOrderId: orderId );
-                                 self.navigationController?.popViewController(animated: false)
+                                // self.navigationController?.popViewController(animated: false)
                                  //self.navigationController?.popToRootViewController(animated: true)
                                 
                                 let viewControllers: [UIViewController] = self.navigationController!.viewControllers as [UIViewController]
                                 self.navigationController!.popToViewController(viewControllers[viewControllers.count - 2], animated: false)
-                                
-                                
-                                
-                                
-                                
-                    
+                  
                                    
                                } /*catch {
 
