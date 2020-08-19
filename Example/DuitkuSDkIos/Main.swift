@@ -60,6 +60,11 @@ class Main: UIViewController {
                 imageStatus.image = UIImage(named: "icons8-cancel")
                 statusPembayaran.text = "Pembayaran Pending"
                 Main.statusNotifikasi = ""
+            }else if Main.statusNotifikasi == "03" {
+                self.cardNotification.isHidden = false
+                imageStatus.image = UIImage(named: "icons8-cancel")
+                statusPembayaran.text = "Pembayaran Gagal"
+                Main.statusNotifikasi = ""
             }
             
         }

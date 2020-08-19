@@ -45,6 +45,8 @@ class CheckoutDuitku: UIViewController  {
             
      
                webView.navigationDelegate = self
+               webView.allowsBackForwardNavigationGestures = true ;
+               self.navigationController!.interactivePopGestureRecognizer!.delegate = self;
                    
                helper.setLoadingDuitku(Image: ImageLoading, view: CardLoading , hidden: false)
                helper.setErrorDuitku(Image: ImageError, view: CardError , hidden: true , textError: textError , message: "")
@@ -68,7 +70,7 @@ class CheckoutDuitku: UIViewController  {
             override func viewDidAppear(_ animated: Bool) {
                   super.viewDidAppear(animated)
                                          
-                
+                    self.navigationController!.setNavigationBarHidden(true, animated: true)
                                 
                     if (helper.isConnectedToNetwork() == false ) {
                         self.navigationController!.setNavigationBarHidden(false, animated: true)
@@ -78,10 +80,6 @@ class CheckoutDuitku: UIViewController  {
                                               
                         return
                      }
-
-                    
-                
-
                                   
               }
     
@@ -199,8 +197,10 @@ class CheckoutDuitku: UIViewController  {
                             }
                         
                             self.webView.load(URLRequest(url: urlPayment))
+                        self.webView.allowsBackForwardNavigationGestures = true ;
+                
                             
-                             helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
+                            helper.setLoadingDuitku(Image: self.ImageLoading, view: self.CardLoading , hidden: true)
                          
                        
                           
@@ -433,6 +433,9 @@ extension CheckoutDuitku: WKNavigationDelegate {
                           }
             }
     
+    
+    
+
 
     
     
@@ -441,3 +444,8 @@ extension CheckoutDuitku: WKNavigationDelegate {
 }
 
 
+extension CheckoutDuitku:UIGestureRecognizerDelegate {
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
+    }
+}

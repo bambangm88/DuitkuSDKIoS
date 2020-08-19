@@ -238,8 +238,7 @@ extension ListPaymentDuitku: UITableViewDelegate, UITableViewDataSource{
             self.navigationController?.hidesBottomBarWhenPushed = true
             self.navigationController!.setNavigationBarHidden(true, animated: true)
             self.navigationController!.pushViewController(vc, animated: true)
-        
-       
+            navigationController?.interactivePopGestureRecognizer?.isEnabled = true
            //   let storyboard = UIStoryboard.init(name: "ListPaymentDuitku", bundle: Bundle(for: ListPaymentDuitku.self))
            // let vc = storyboard.instantiateViewController(withIdentifier: "listPaymentDuitku")
         
