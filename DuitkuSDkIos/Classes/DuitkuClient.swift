@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-open class DuitkuClient: UIViewController {
+@objc open class DuitkuClient: UIViewController {
     
        
     public static var code : String = ""
